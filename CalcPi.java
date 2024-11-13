@@ -8,9 +8,9 @@ public class CalcPi {
 		for(int i=1; i<terms; i++)
 		{
 		  if(i%2==0)
-		    sum= sum- (1/times);
+		    sum= sum- (1.0/times);
 		  else
-		      sum=sum+(1/times);
+		      sum=sum+(1.0/times);
 		  times=times+2;
 		}
 		sum= 1-sum;
